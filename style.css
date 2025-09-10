@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    opacity: 1;
+}   
+nav{
+    display: flex;
+    align-items: center;
+    max-width: 1480px;
+    margin: auto;
+    margin-top: 15px;
+    height: 70px;
+    background: #141414 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: white;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.header > img{
+    margin: 30px;
+    width: 166px;
+    height: 26px;
+    
+}
+.header a{
+    padding: 20px;
+}
+.btn{
+    margin-right: 20px;
+}
+#signin{
+    background-color: #141414;
+    color: white;
+    border: none;
+}
+#register{
+    background-color: #F7931A;
+    color: white;
+    padding: 12px;
+    border: 1px solid white;
+}
+.container , .about {
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0px;
+    gap: 5px;
+}
+#sign{
+    background-color: #F7931A;
+    color: white;
+    padding: 12px;
+    border: 1px solid white;
+}
+.card , .cards{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card1 , .card2{
+    margin-top: 50px; 
+    flex-basis: 30%;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 20px 20px #0000001A;
+    padding: 40px;  
+    text-align: center;
+}
+.card1 img{
+    height: 100px;
+    width: 100px;
+}
+.card2 > img{
+    width: 524px;
+    height: 150px;
+}
+.footer{
+    max-width: 1480px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    align-items: center;
+    gap: 20px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.icons i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+}
+
