@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    /* max-width: 600px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .header {
+    gap: 20px;
+  }
+  .header > img {
+    width: 120px;
+    height: 26px;
+  }
+  .btn {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+  #signin {
+    background-color: white;
+    color: black;
+    padding: 12px;
+  }
+  .container p {
+    padding: 10px;
+  }
+  .card {
+    flex-direction: column;
+  }
+  .card1,
+  .card2 {
+    margin: 15px 15px 0px 15px;
+  }
+}
+
